@@ -665,7 +665,7 @@ catchTuna: async function () {
 
   try {
     await App.contracts.Gateway.methods
-      .catchTuna(upc, fisherman, location)
+      .catchTuna(upc, location)
       .send({ from: fisherman });
 
     alert("Tuna successfully caught");
