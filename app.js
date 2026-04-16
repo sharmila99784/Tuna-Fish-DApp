@@ -3,7 +3,7 @@ App = {
   contracts: {},
   metamaskAccountID: null,
 
-  contractAddress: "0xD700A4A501CE6A4b2d1332d4C97B1b59A726E6f4",
+  contractAddress: "0xCB80f2ea47B9459e045EcDC0259B1C882b2C39Bf",
   contractABI: [
 	{
 		"constant": false,
@@ -87,10 +87,6 @@ App = {
 				"type": "uint256"
 			},
 			{
-				"name": "_originFishermanID",
-				"type": "address"
-			},
-			{
 				"name": "_location",
 				"type": "string"
 			}
@@ -127,48 +123,6 @@ App = {
 			}
 		],
 		"name": "recordTuna",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "account",
-				"type": "address"
-			}
-		],
-		"name": "removeFisherman",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "account",
-				"type": "address"
-			}
-		],
-		"name": "removeRegulator",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "account",
-				"type": "address"
-			}
-		],
-		"name": "removeRestaurant",
 		"outputs": [],
 		"payable": false,
 		"stateMutability": "nonpayable",
